@@ -1,0 +1,10 @@
+extends: substitution
+message: "Prefer '%s' over '%s'"
+scope: text
+level: warning
+description: "Standardize spelling of Python programming constructs."
+ignorecase: true
+swap:
+  'for loop': for-loop
+  'while loop': while-loop
+  # Handle for and while surrounded by backticks. See https://github.com/ValeLint/vale/issues/43
