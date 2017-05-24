@@ -1,0 +1,10 @@
+# This is an example of a .vale that uses the Sixty North style guide.
+# This goes in a file named either `.vale` or `_vale`.
+
+StylesPath = /Users/abingham/projects/sixty-north/style-guide/vale
+MinAlertLevel = warning # suggestion, warning or error
+
+[*.{md,rst,txt}] # Only Markdown and .txt files
+
+# List of styles to load
+BasedOnStyles = SixtyNorth
