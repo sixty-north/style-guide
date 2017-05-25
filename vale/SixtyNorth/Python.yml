@@ -4,7 +4,13 @@ scope: text
 level: warning
 description: "Standardize spelling of Python programming constructs."
 ignorecase: true
+nonword: true
 swap:
   'for loop': for-loop
   'while loop': while-loop
-  # Handle for and while surrounded by backticks. See https://github.com/ValeLint/vale/issues/43
+
+  # See https://github.com/ValeLint/vale/issues/43 for details about handling
+  # backticks. For now we need to use vale's "--ignore-syntax" flag to make
+  # these work.
+  '`for`(?: |-)loop': for-loop
+  '`while`(?: |-)loop': while-loop
