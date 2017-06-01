@@ -1,0 +1,7 @@
+extends: substitution
+message: "Prefer '%s' over '%s'"
+level: warning
+description: "Prefer the verb 'inherit' over 'subclass'."
+swap:
+  'subclassing': inheriting from
+  'subclass from': inherit from
