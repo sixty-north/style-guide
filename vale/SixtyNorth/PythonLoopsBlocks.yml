@@ -1,0 +1,26 @@
+# DO NOT EDIT: See gen_python.py
+extends: substitution
+message: "Prefer '%s' over '%s'"
+level: warning
+description: "Standardize spelling of Python programming constructs."
+nonword: true
+code: true
+swap:
+  'for block': for-block
+  '`for`(?: |-)block': for-block
+  'while block': while-block
+  '`while`(?: |-)block': while-block
+  'if block': if-block
+  '`if`(?: |-)block': if-block
+  'else block': else-block
+  '`else`(?: |-)block': else-block
+  'try block': try-block
+  '`try`(?: |-)block': try-block
+  'except block': except-block
+  '`except`(?: |-)block': except-block
+  'with block': with-block
+  '`with`(?: |-)block': with-block
+  'for loop': for-loop
+  '`for`(?: |-)loop': for-loop
+  'while loop': while-loop
+  '`while`(?: |-)loop': while-loop
