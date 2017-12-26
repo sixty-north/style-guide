@@ -20,6 +20,8 @@ swap:
   '`except`(?: |-)block': except-block
   'with block': with-block
   '`with`(?: |-)block': with-block
+  'class block': class-block
+  '`class`(?: |-)block': class-block
   'for loop': for-loop
   '`for`(?: |-)loop': for-loop
   'while loop': while-loop
