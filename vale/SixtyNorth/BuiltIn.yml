@@ -1,0 +1,6 @@
+extends: substitution
+message: "Prefer '%s' over '%s'"
+level: warning
+description: "Prefer 'built-in' over 'built in'."
+swap:
+  'built in': built-in
