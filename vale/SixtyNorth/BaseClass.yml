@@ -3,4 +3,4 @@ message: "Prefer '%s' over '%s'"
 level: warning
 description: "Prefer 'base-class' over 'base class'."
 swap:
-  'base class': base-class
+  'base class(?:es)': base-class
